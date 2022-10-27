@@ -4,7 +4,7 @@
 </head>
 <body>
 <?php
-include("header.php");
+include("header.html");
 include("connection.php");
 ?>
 <div class="container">
