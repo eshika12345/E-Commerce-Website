@@ -6,7 +6,7 @@
 <body>
 <?php
 include("connection.php");
-include("header.php");
+include("header.html");
 ?>
 <div class="container">
 <h1>Add a product</h1>
