@@ -6,7 +6,7 @@
 </head>
 <body>
 <?php
-include("header.php");
+include("header.html");
 ?>
 <div class="container">
 <div class="mt-4">
@@ -54,7 +54,7 @@ include("header.php");
 </div>
 </div>
 <?php
-include("footer.php");
+include("footer.html");
 ?>
 </body>
 </html>
