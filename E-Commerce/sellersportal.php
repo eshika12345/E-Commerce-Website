@@ -8,7 +8,7 @@ session_start();
 <body>
 <?php
 include("connection.php");
-include("header.php");
+include("header.html");
 ?>
 <h1>Welcome to Brandistic Seller's Services</h1>
 <div>
