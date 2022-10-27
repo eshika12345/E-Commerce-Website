@@ -1,6 +1,6 @@
 <?php
 include("connection.php");
-include("header.php");
+include("header.html");
 session_start();
 $product_id=$_GET['prod_id'];
 $sel="SELECT * FROM womensproduct_tbl WHERE Category='Men' AND Product_ID=$product_id";
