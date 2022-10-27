@@ -1,6 +1,6 @@
 <?php
 include("connection.php");
-include("header.php");
+include("header.html");
 $sel="SELECT * FROM womensproduct_tbl where Category='Men'";
 $query=mysqli_query($conn,$sel);
 
