@@ -1,0 +1,37 @@
+body
+{
+margin:0px;
+font-family:sans-serif;
+}
+.main-nav-item
+{
+
+display:inline-block;
+}
+.main-header
+{
+color:red;
+display:inline-block;
+
+}
+.main-nav-item a
+{
+text-decoration:none;
+padding:25px;
+color:white;
+font-weight:bold;
+}
+.main-nav-item a:hover,
+.main-nav-item a:active
+{
+color:#F4C2C2;
+background:white;
+}
+.header
+{
+background:#F4C2C2;
+}
+h1
+{
+margin-left:50px;
+}

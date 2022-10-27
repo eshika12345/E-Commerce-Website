@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>Shipping Settings</title>
+</head>
+<body>
+<form method="post">
+<div>
+<label>Set rates within India(in Rs)</label>
+<select name="rates" id="rates">
+<option value="">--Select--</option>
+<option value="nil">Nil</option>
+<option value="50">50</option>
+<option value="60">60</option>
+<option value="70">70</option>
+<option value="80">80</option>
+<option value="90">90</option>
+<option value="100">100</option>
+</select>
+</div>
+<div>
+<label>Region of delivery</label>
+<select name="states" id="states">
+<option value="">--Select--</option>
+<option value="MAH">Maharashtra</option>
+<option value="MP">Madhya Pradesh</option>
+<option value="GUJ">Gujarat</option>
+<option value="CHAT">Chattisgarh</option>
+<option value="TEL">Telangana</option>
+<option value="GOA">Goa</option>
+</select>
+</div>
+<div>
+<label>Duration of delivery</label>
+<select name="days" id="days">
+<option value="">--Select--</option>
+<option value="1to2">1 - 2 days</option>
+<option value="2to3">2 - 3 days</option>
+<option value="3to4">3 - 4 days</option>
+<option value="4to5">4 - 5 days</option>
+<option value="5to6">5 - 6 days</option>
+<option value="6to7">6 - 7 days</option>
+</select>
+</div>
+<div>
+<input type="submit" name="submit" value="Submit">
+</div>
+</form>
+</body>
+</html>
